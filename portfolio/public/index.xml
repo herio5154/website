@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>little dog studos</title>
+    <link>https://herio5154.github.io/portfolio.github.io/</link>
+    <description>Recent content on little dog studos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jul 2024 11:29:19 +0930</lastBuildDate>
+    <atom:link href="https://herio5154.github.io/portfolio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>80s office</title>
+      <link>https://herio5154.github.io/portfolio.github.io/posts/80soffice/</link>
+      <pubDate>Thu, 18 Jul 2024 11:29:19 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/posts/80soffice/</guid>
+      <description>Step back in time with our Low Poly Modular 80s Office Pack! This meticulously crafted asset pack captures the essence of an open-plan office from the 1980s, featuring warm colors, sharp edges, and vintage technology. Perfect for creating immersive retro environments,</description>
+    </item>
+    <item>
+      <title>Contemporary House</title>
+      <link>https://herio5154.github.io/portfolio.github.io/posts/contemporary_house/</link>
+      <pubDate>Thu, 18 Jul 2024 11:29:19 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/posts/contemporary_house/</guid>
+      <description>Elevate your game with our meticulously designed Simple Contemporary House Set, featuring a collection of modern furniture that perfectly complements any contemporary setting. This asset pack is ideal for developers looking to create a sleek, stylish, and nice environment.</description>
+    </item>
+    <item>
+      <title>Modern office</title>
+      <link>https://herio5154.github.io/portfolio.github.io/posts/modern_office/</link>
+      <pubDate>Thu, 18 Jul 2024 11:29:19 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/posts/modern_office/</guid>
+      <description>Elevate your game environments with this Low Poly Modern Office asset pack! Designed with a contemporary aesthetic, this pack features bright and airy office spaces filled with plenty of natural light and sleek glass elements. The minimalist design and hand-painted textures ensure a clean and professional look, perfect for modern office scenes. Compatible with all Little Dog projects, this pack is ideal for developers looking to add a touch of sophistication to their games.</description>
+    </item>
+    <item>
+      <title>Subway</title>
+      <link>https://herio5154.github.io/portfolio.github.io/posts/subway/</link>
+      <pubDate>Thu, 18 Jul 2024 11:29:19 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/posts/subway/</guid>
+      <description>This versatile asset pack includes intricately designed subway tunnels and a small bunker, complete with customizable graffiti options. Bring your urban environments to life with detailed, hand-painted textures that seamlessly integrate with all Little Dog projects. Perfect for creating immersive and atmospheric scenes, this pack allows you to personalize your subway with graffiti, adding a unique touch to your game world.</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://herio5154.github.io/portfolio.github.io/_about/</link>
+      <pubDate>Tue, 16 Apr 2024 19:10:41 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/_about/</guid>
+      <description>I am a level designer with extensive experience in Unity since 2018, specializing in creating low-poly environments. My skill set includes a background in animation, and I primarily use Blender for my 3D modeling. All my textures are meticulously hand-drawn, contributing to the unique, stylized aesthetic of my work. I favor a low-poly, janky look, which aligns well with the demands of solo development and allows for creative flexibility.</description>
+    </item>
+  </channel>
+</rss>

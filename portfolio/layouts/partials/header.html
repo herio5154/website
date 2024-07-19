@@ -1,0 +1,12 @@
+ 
+<nav class="main-nav">
+    <div class="menu-logo"><h2>Little dog studios</h2></div>
+    <ul class="main-Menu">
+        <li><a href="/" class="{{ if eq .Page.RelPermalink "/" }}active{{ end }}">Home</a></li>       
+        <li><a href="{{ "/_about/" | relURL }}">About</a></li>
+               {{ range .Site.Taxonomies.categories.Alphabetical }}
+            <li><a href="{{ .Page.Permalink }}">archive</a></li>
+            {{ end }} 
+            <li><a href="{{ .Site.BaseURL }}contact.html">Contact</a></li>
+    </ul>
+</nav>

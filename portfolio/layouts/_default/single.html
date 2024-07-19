@@ -1,0 +1,28 @@
+{{ define "main" }}
+ 
+    <article class="Singal-Post">
+        <div class="imge-holder">
+        <img  src="{{ .Params.imageFile }}" alt="{{ .Params.altText }}">
+        </div>
+        <div class="Single-textbox">  
+        <h1>{{ .Title }}</h1>
+        <p class="meta">Published on {{ .Date.Format "January 2, 2006" }} by {{ .Params.author }}</p>     
+          <div class="content">
+            <h3>Description:</h3>
+            <p>{{ .Content }}</p>
+          </div>
+          {{ if .Params.hasLink }} 
+          <div class="storelink">
+            <button type="button" class="btn btn-link"><a href="{{ .Params.StoreLink }}">go To unity store</a></button>   
+          </div>
+          {{ end }}
+          <ul class="tag-list">
+            {{ with .GetTerms "tags" }}
+              {{ range . }}
+              <li><button type="button" class="btn btn-outline-secondary"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></button></li>        
+              {{ end }}
+            </ul>
+          {{ end }} 
+    </article>
+    
+{{ end }}

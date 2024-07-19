@@ -1,0 +1,28 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ "css/Contact-styles.css" | relURL }}">
+</head>
+<body>
+<div class="holder">
+    <header><h1>Contact Little Dog Studios</h1></header>
+
+    <form action="https://formspree.io/f/{form_id}" method="post">
+        <label for="name">Your Name</label>
+        <input name="Name" id="name" type="text" required>
+
+        <label for="email">Your Email</label>
+        <input name="Email" id="email" type="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea name="Message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{{ define "main" }}
+   <!-- This is the main content of the homepage -->
+  <section class="post-holder"> 
+    {{ range .Site.RegularPages }}
+        {{ if eq .Section "posts" }}
+            <article class="post-list">
+                <img src="{{ .Params.prevewImgeFile }}" class="Prevew-imgae" alt=" a prevew imge of {{ .Params.altText}}">
+             <div class="Prevew-TextBox">
+                 <h3><a class="Prevew-header" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                 {{ .Params.prevewText}}       
+              </div>  
+              <ul class="tag-list">
+                {{ with .GetTerms "tags" }}
+                  {{ range . }}
+                  <li><button type="button" class="btn btn-outline-secondary"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></button></li>        
+                  {{ end }}
+                </ul>
+              {{ end }}             
+              </ul>         
+             </article>
+         {{ end }}
+    {{ end }}
+</section>
+{{ end }} 

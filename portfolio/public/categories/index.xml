@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on little dog studos</title>
+    <link>https://herio5154.github.io/portfolio.github.io/categories/</link>
+    <description>Recent content in Categories on little dog studos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jul 2024 11:29:19 +0930</lastBuildDate>
+    <atom:link href="https://herio5154.github.io/portfolio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archive</title>
+      <link>https://herio5154.github.io/portfolio.github.io/categories/archive/</link>
+      <pubDate>Thu, 18 Jul 2024 11:29:19 +0930</pubDate>
+      <guid>https://herio5154.github.io/portfolio.github.io/categories/archive/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
